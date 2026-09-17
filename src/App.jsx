@@ -38,7 +38,7 @@ function App() {
       {/* Hero Section */}
       <section className="relative h-[600px] flex items-center">
         <div className="absolute inset-0">
-          <img src="/assets/photo2.jpg" alt="Abatement working" className="w-full h-full object-cover" />
+          <img src="/assets/image-4.png" alt="Abatement working" className="w-full h-full object-cover object-bottom" />
           <div className="absolute inset-0 bg-gray-900 bg-opacity-75"></div>
         </div>
         <div className="relative max-w-7xl mx-auto px-4 text-white z-10 w-full">
@@ -123,7 +123,7 @@ function App() {
       <section id="why-us" className="py-20">
         <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center gap-12">
           <div className="md:w-1/2">
-            <img src="/assets/photo1.jpg" alt="Team at work" className="rounded-lg shadow-lg" />
+            <img src="/assets/image-3-short.png" alt="Team at work" className="rounded-lg shadow-lg" />
           </div>
           <div className="md:w-1/2">
             <h2 className="text-3xl font-extrabold text-gray-900 mb-6">Why Choose Us?</h2>
