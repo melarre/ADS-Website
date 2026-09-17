@@ -74,7 +74,7 @@ function App() {
             <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100 flex">
               <div className="flex-shrink-0 self-start mr-4">
                 <div className="bg-red-100 p-2.5 rounded-full text-brand-red">
-                  <InspectionPanel size={20} />
+                  <InspectionPanel size={32} />
                 </div>
               </div>
               <div>
@@ -85,7 +85,7 @@ function App() {
             <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100 flex">
               <div className="flex-shrink-0 self-start mr-4">
                 <div className="bg-red-100 p-2.5 rounded-full text-brand-red">
-                  <Germ size={20} />
+                  <Germ size={32} />
                 </div>
               </div>
               <div>
@@ -96,7 +96,7 @@ function App() {
             <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100 flex">
               <div className="flex-shrink-0 self-start mr-4">
                 <div className="bg-red-100 p-2.5 rounded-full text-brand-red">
-                  <BrushCleaning size={20} />
+                  <BrushCleaning size={32} />
                 </div>
               </div>
               <div>
@@ -107,7 +107,7 @@ function App() {
             <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100 flex">
               <div className="flex-shrink-0 self-start mr-4">
                 <div className="bg-red-100 p-2.5 rounded-full text-brand-red">
-                  <Hammer size={20} />
+                  <Hammer size={32} />
                 </div>
               </div>
               <div>
@@ -213,7 +213,7 @@ function App() {
                   <Phone size={24} />
                 </div>
                 <div>
-                  <p className="text-sm text-gray-500 font-semibold uppercase tracking-wider">Phone / Text</p>
+                  <p className="text-sm text-gray-500 font-semibold uppercase tracking-wider">Call / Text</p>
                   <a href="tel:2078386848" className="text-xl font-bold text-gray-900 hover:text-brand-red transition">(207) 838-6848</a>
                 </div>
               </div>
