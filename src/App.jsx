@@ -12,7 +12,7 @@ function App() {
             <span className="flex items-center"><Mail size={16} className="mr-2" /> abatementanddemo@gmail.com</span>
           </div>
           <div className="flex items-center text-gray-300">
-            <MapPin size={16} className="mr-2" /> Serving Maine, NH, & VT
+            <MapPin size={16} className="mr-2" /> Serving Maine and New Hampshire
           </div>
         </div>
       </div>
@@ -41,7 +41,7 @@ function App() {
           <img src="/assets/image-4.png" alt="Abatement working" className="w-full h-full object-cover object-bottom" />
           <div className="absolute inset-0 bg-gray-900 bg-opacity-75"></div>
         </div>
-        <div className="relative max-w-7xl mx-auto px-4 text-white z-10 w-full">
+        <div className="relative max-w-7xl mx-auto px-4 md:px-12 text-white z-10 w-full">
           <div className="max-w-2xl">
             <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-4">
               Expert Abatement & Demolition Services
@@ -62,56 +62,56 @@ function App() {
       </section>
 
       {/* Services Section */}
-      <section id="services" className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="text-center mb-16">
+      <section id="services" className="py-12 md:py-20 md:px-8 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 py-2">
+          <div className="text-center mb-10">
             <h2 className="text-3xl font-extrabold text-gray-900 mb-4">Our Core Services</h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               We handle hazardous material removal and general demolition for residential and commercial properties.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100 flex">
+          <div className="grid grid-cols-1 md:grid-cols-2 md:gap-8 gap-6">
+            <div className="bg-white md:p-8 p-6 rounded-lg shadow-sm border border-gray-100 flex">
               <div className="flex-shrink-0 self-start mr-4">
                 <div className="bg-red-100 p-2.5 rounded-full text-brand-red">
                   <InspectionPanel size={32} />
                 </div>
               </div>
               <div>
-                <h3 className="text-2xl font-bold mb-2">Asbestos Abatement</h3>
+                <h3 className="text-lg md:text-xl font-bold mb-2">Asbestos Abatement</h3>
                 <p className="text-gray-600">Safe testing, containment, and complete removal of asbestos-containing materials following strict DEP guidelines.</p>
               </div>
             </div>
-            <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100 flex">
+            <div className="bg-white md:p-8 p-6 rounded-lg shadow-sm border border-gray-100 flex">
               <div className="flex-shrink-0 self-start mr-4">
                 <div className="bg-red-100 p-2.5 rounded-full text-brand-red">
                   <Germ size={32} />
                 </div>
               </div>
               <div>
-                <h3 className="text-2xl font-bold mb-2">Mold Remediation</h3>
+                <h3 className="text-lg md:text-xl font-bold mb-2">Mold Remediation</h3>
                 <p className="text-gray-600">Thorough identification, treatment, and removal of mold to restore a healthy and safe indoor air environment.</p>
               </div>
             </div>
-            <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100 flex">
+            <div className="bg-white md:p-8 p-6 rounded-lg shadow-sm border border-gray-100 flex">
               <div className="flex-shrink-0 self-start mr-4">
                 <div className="bg-red-100 p-2.5 rounded-full text-brand-red">
                   <BrushCleaning size={32} />
                 </div>
               </div>
               <div>
-                <h3 className="text-2xl font-bold mb-2">RRP Lead Removal</h3>
+                <h3 className="text-lg md:text-xl font-bold mb-2">RRP Lead Removal</h3>
                 <p className="text-gray-600">Expert containment and elimination of lead-based paint hazards in older residential and commercial buildings.</p>
               </div>
             </div>
-            <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100 flex">
+            <div className="bg-white md:p-8 p-6 rounded-lg shadow-sm border border-gray-100 flex">
               <div className="flex-shrink-0 self-start mr-4">
                 <div className="bg-red-100 p-2.5 rounded-full text-brand-red">
                   <Hammer size={32} />
                 </div>
               </div>
               <div>
-                <h3 className="text-2xl font-bold mb-2">General Demolition</h3>
+                <h3 className="text-lg md:text-xl font-bold mb-2">General Demolition</h3>
                 <p className="text-gray-600">Safe, efficient, and complete tear-downs and interior gutting for properties preparing for renovation.</p>
               </div>
             </div>
@@ -120,7 +120,7 @@ function App() {
       </section>
 
       {/* Why Choose Us */}
-      <section id="why-us" className="py-20">
+      <section id="why-us" className="py-14 md:py-20 md:px-8">
         <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center gap-12">
           <div className="md:w-1/2">
             <img src="/assets/image-3-short.png" alt="Team at work" className="rounded-lg shadow-lg" />
@@ -165,7 +165,7 @@ function App() {
       </section>
 
       {/* Process Section */}
-      <section id="process" className="py-20 bg-brand-dark text-white">
+      <section id="process" className="py-14 md:py-20 bg-brand-dark text-white">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-extrabold mb-4">Our Proven Process</h2>
@@ -177,7 +177,7 @@ function App() {
             
             {/* Step 1 */}
             <div className="flex flex-row md:flex-col items-start md:items-center text-left md:text-center gap-4 md:gap-0">
-              <div className="bg-brand-red w-16 h-16 rounded-full flex items-center justify-center shrink-0 md:mb-4 text-2xl font-bold">
+              <div className="bg-brand-red w-12 md:w-16 h-12 md:h-16 rounded-full flex items-center justify-center shrink-0 md:mb-4 text-2xl font-bold">
                 1
               </div>
               <div>
@@ -188,7 +188,7 @@ function App() {
 
             {/* Step 2 */}
             <div className="flex flex-row md:flex-col items-start md:items-center text-left md:text-center gap-4 md:gap-0">
-              <div className="bg-brand-red w-16 h-16 rounded-full flex items-center justify-center shrink-0 md:mb-4 text-2xl font-bold">
+              <div className="bg-brand-red w-12 md:w-16 h-12 md:h-16 rounded-full flex items-center justify-center shrink-0 md:mb-4 text-2xl font-bold">
                 2
               </div>
               <div>
@@ -199,7 +199,7 @@ function App() {
 
             {/* Step 3 */}
             <div className="flex flex-row md:flex-col items-start md:items-center text-left md:text-center gap-4 md:gap-0">
-              <div className="bg-brand-red w-16 h-16 rounded-full flex items-center justify-center shrink-0 md:mb-4 text-2xl font-bold">
+              <div className="bg-brand-red w-12 md:w-16 h-12 md:h-16 rounded-full flex items-center justify-center shrink-0 md:mb-4 text-2xl font-bold">
                 3
               </div>
               <div>
@@ -210,7 +210,7 @@ function App() {
 
             {/* Step 4 */}
             <div className="flex flex-row md:flex-col items-start md:items-center text-left md:text-center gap-4 md:gap-0">
-              <div className="bg-brand-red w-16 h-16 rounded-full flex items-center justify-center shrink-0 md:mb-4 text-2xl font-bold">
+              <div className="bg-brand-red w-12 md:w-16 h-12 md:h-16 rounded-full flex items-center justify-center shrink-0 md:mb-4 text-2xl font-bold">
                 4
               </div>
               <div>
@@ -224,8 +224,8 @@ function App() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 flex flex-col lg:flex-row gap-12">
+      <section id="contact" className="py-14 md:py-20 md:px-8 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 flex flex-col lg:flex-row md:gap-12 gap-2">
           <div className="lg:w-1/2">
             <h2 className="text-3xl font-extrabold text-gray-900 mb-6">Request a Free Assessment</h2>
             <p className="text-lg text-gray-600 mb-8">
@@ -258,13 +258,15 @@ function App() {
                 <div>
                   <p className="text-sm text-gray-500 font-semibold uppercase tracking-wider">Location & Service Area</p>
                   <p className="text-lg font-bold text-gray-900">Based in Augusta, ME</p>
-                  <p className="text-gray-600">Serving ME, NH, & VT</p>
+                  <p className="text-gray-600">Serving Maine and New Hampshire</p>
                 </div>
               </div>
             </div>
           </div>
-          
+
+          {/* Form Section */}
           <div className="lg:w-1/2 bg-white p-8 rounded-lg shadow-md border border-gray-100">
+            <h3 className="text-xl font-extrabold text-gray-900 mb-6">Send us a message</h3>
             <form action="https://formspree.io/f/mkjgnkwr" method="POST" className="space-y-4">
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
@@ -293,6 +295,7 @@ function App() {
               </button>
             </form>
           </div>
+          
         </div>
       </section>
 
