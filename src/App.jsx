@@ -56,11 +56,6 @@ function App() {
         </div>
         <div className="relative max-w-7xl mx-auto px-4 md:px-12 text-white z-10 w-full">
           <div className="max-w-2xl">
-            {/* <img 
-              src="/assets/logo-white-plain.png" 
-              alt="Abatement & Demolition Logo" 
-              className="block md:hidden h-10 mb-12 w-auto"
-            /> */}
             <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-4">
               Expert Abatement & Demolition Services
             </h1>
@@ -97,7 +92,7 @@ function App() {
               </div>
               <div>
                 <h3 className="text-lg md:text-xl font-bold mb-2">Asbestos Abatement</h3>
-                <p className="text-gray-600">Safe testing, containment, and complete removal of asbestos-containing materials following strict DEP guidelines.</p>
+                <p className="text-gray-600">Testing, containment, and removal of asbestos materials following strict DEP guidelines.</p>
               </div>
             </div>
             <div className="bg-white md:p-8 p-6 rounded-lg shadow-sm border border-gray-100 flex">
@@ -108,7 +103,7 @@ function App() {
               </div>
               <div>
                 <h3 className="text-lg md:text-xl font-bold mb-2">Mold Remediation</h3>
-                <p className="text-gray-600">Thorough identification, treatment, and removal of mold to restore a healthy and safe indoor air environment.</p>
+                <p className="text-gray-600">Identification, treatment, and removal of mold to restore a healthy and safe environment.</p>
               </div>
             </div>
             <div className="bg-white md:p-8 p-6 rounded-lg shadow-sm border border-gray-100 flex">
@@ -119,7 +114,7 @@ function App() {
               </div>
               <div>
                 <h3 className="text-lg md:text-xl font-bold mb-2">RRP Lead Removal</h3>
-                <p className="text-gray-600">EPA certified to legally and safely handle lead-based hazards in older residential and commercial buildings.</p>
+                <p className="text-gray-600">EPA certified to legally and safely handle lead-based hazards.</p>
               </div>
             </div>
             <div className="bg-white md:p-8 p-6 rounded-lg shadow-sm border border-gray-100 flex">
@@ -130,7 +125,7 @@ function App() {
               </div>
               <div>
                 <h3 className="text-lg md:text-xl font-bold mb-2">General Demolition</h3>
-                <p className="text-gray-600">Safe, efficient, and complete tear-downs and interior gutting for properties preparing for renovation.</p>
+                <p className="text-gray-600">Teardowns and interior gutting including haul-away and disposal service.</p>
               </div>
             </div>
           </div>
@@ -200,7 +195,7 @@ function App() {
               </div>
               <div>
                 <h3 className="text-xl font-bold mb-2">Contact Us</h3>
-                <p className="text-sm text-gray-300">Call, text, or fill out our online form to request a free assessment.</p>
+                <p className="text-md text-gray-300">Call, text, or fill out our online form to request a free assessment.</p>
               </div>
             </div>
 
@@ -211,7 +206,7 @@ function App() {
               </div>
               <div>
                 <h3 className="text-xl font-bold mb-2">On-Site Assessment</h3>
-                <p className="text-sm text-gray-300">We inspect the property, collect necessary samples, scope the work, and provide an estimate.</p>
+                <p className="text-md text-gray-300">We inspect the property, collect necessary samples, scope the work, and provide an estimate.</p>
               </div>
             </div>
 
@@ -222,7 +217,7 @@ function App() {
               </div>
               <div>
                 <h3 className="text-xl font-bold mb-2">Permits & Scheduling</h3>
-                <p className="text-sm text-gray-300">We handle all DEP notifications and schedule the work at your convenience.</p>
+                <p className="text-md text-gray-300">We handle all DEP notifications and schedule the work at your convenience.</p>
               </div>
             </div>
 
@@ -233,7 +228,7 @@ function App() {
               </div>
               <div>
                 <h3 className="text-xl font-bold mb-2">Removal & Disposal</h3>
-                <p className="text-sm text-gray-300">We safely abate all hazards and haul away all debris, leaving the site clean.</p>
+                <p className="text-md text-gray-300">We safely abate all hazards and haul away all debris, leaving the site clean.</p>
               </div>
             </div>
 
