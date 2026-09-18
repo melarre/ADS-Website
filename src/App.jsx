@@ -20,9 +20,22 @@ function App() {
       {/* Navbar */}
       <nav className="bg-white shadow-md sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-          <a href="#" className="flex items-center">
-            <img src="/assets/logo.png" alt="Abatement and Demolition Specialist" className="h-12 md:h-16" />
+          <a href="/" className="flex items-center">
+            {/* Mobile Logo: Shows by default, hides on medium screens and up */}
+            <img 
+              src="/assets/logo-no-padding.jpg" 
+              alt="Abatement & Demolition Logo" 
+              className="block md:hidden h-10 w-auto" 
+            />
+            
+            {/* Desktop Logo: Hides by default, shows on medium screens and up */}
+            <img 
+              src="/assets/logo-no-padding.jpg" 
+              alt="Abatement & Demolition Logo" 
+              className="hidden md:block h-12 w-auto" 
+            />
           </a>
+
           <div className="hidden md:flex space-x-8 font-semibold text-gray-700">
             <a href="#services" className="hover:text-brand-red transition">Services</a>
             <a href="#why-us" className="hover:text-brand-red transition">Why Us</a>
@@ -30,7 +43,7 @@ function App() {
             <a href="#contact" className="hover:text-brand-red transition">Contact</a>
           </div>
           <a href="#contact" className="bg-brand-red text-white px-4 py-2 md:px-6 rounded-md font-bold hover:bg-red-700 transition whitespace-nowrap text-sm md:text-base">
-            Free Assessment
+            Contact Us
           </a>
         </div>
       </nav>
@@ -43,6 +56,11 @@ function App() {
         </div>
         <div className="relative max-w-7xl mx-auto px-4 md:px-12 text-white z-10 w-full">
           <div className="max-w-2xl">
+            {/* <img 
+              src="/assets/logo-white-plain.png" 
+              alt="Abatement & Demolition Logo" 
+              className="block md:hidden h-10 mb-12 w-auto"
+            /> */}
             <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-4">
               Expert Abatement & Demolition Services
             </h1>
