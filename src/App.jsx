@@ -278,7 +278,7 @@ function App() {
           </div>
 
           {/* Form Section */}
-          <div className="lg:w-1/2 bg-white p-8 rounded-lg shadow-md border border-gray-100">
+          <div className="lg:w-1/2 bg-white p-6 md:p-8 rounded-lg shadow-md border border-gray-100">
             <h3 className="text-xl font-extrabold text-gray-900">Send us a message</h3>
             <p className="text-md text-gray-600 mb-6">We'll usually get back to you within the same business day.</p>
             <form action="https://formspree.io/f/mkjgnkwr" method="POST" className="space-y-4">
