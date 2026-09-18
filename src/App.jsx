@@ -174,26 +174,51 @@ function App() {
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-            <div className="text-center">
-              <div className="bg-brand-red w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">1</div>
-              <h3 className="text-xl font-bold mb-2">Contact Us</h3>
-              <p className="text-sm text-gray-300">Call, text, or fill out our online form to request a free assessment.</p>
+            
+            {/* Step 1 */}
+            <div className="flex flex-row md:flex-col items-start md:items-center text-left md:text-center gap-4 md:gap-0">
+              <div className="bg-brand-red w-16 h-16 rounded-full flex items-center justify-center shrink-0 md:mb-4 text-2xl font-bold">
+                1
+              </div>
+              <div>
+                <h3 className="text-xl font-bold mb-2">Contact Us</h3>
+                <p className="text-sm text-gray-300">Call, text, or fill out our online form to request a free assessment.</p>
+              </div>
             </div>
-            <div className="text-center">
-              <div className="bg-brand-red w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">2</div>
-              <h3 className="text-xl font-bold mb-2">On-Site Assessment</h3>
-              <p className="text-sm text-gray-300">We inspect the property, collect necessary samples, scope the work, and provide an estimate.</p>
+
+            {/* Step 2 */}
+            <div className="flex flex-row md:flex-col items-start md:items-center text-left md:text-center gap-4 md:gap-0">
+              <div className="bg-brand-red w-16 h-16 rounded-full flex items-center justify-center shrink-0 md:mb-4 text-2xl font-bold">
+                2
+              </div>
+              <div>
+                <h3 className="text-xl font-bold mb-2">On-Site Assessment</h3>
+                <p className="text-sm text-gray-300">We inspect the property, collect necessary samples, scope the work, and provide an estimate.</p>
+              </div>
             </div>
-            <div className="text-center">
-              <div className="bg-brand-red w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">3</div>
-              <h3 className="text-xl font-bold mb-2">Permits & Scheduling</h3>
-              <p className="text-sm text-gray-300">We handle all DEP notifications and schedule the work at your convenience.</p>
+
+            {/* Step 3 */}
+            <div className="flex flex-row md:flex-col items-start md:items-center text-left md:text-center gap-4 md:gap-0">
+              <div className="bg-brand-red w-16 h-16 rounded-full flex items-center justify-center shrink-0 md:mb-4 text-2xl font-bold">
+                3
+              </div>
+              <div>
+                <h3 className="text-xl font-bold mb-2">Permits & Scheduling</h3>
+                <p className="text-sm text-gray-300">We handle all DEP notifications and schedule the work at your convenience.</p>
+              </div>
             </div>
-            <div className="text-center">
-              <div className="bg-brand-red w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">4</div>
-              <h3 className="text-xl font-bold mb-2">Removal & Disposal</h3>
-              <p className="text-sm text-gray-300">We safely abate all hazards and haul away all debris, leaving the site clean.</p>
+
+            {/* Step 4 */}
+            <div className="flex flex-row md:flex-col items-start md:items-center text-left md:text-center gap-4 md:gap-0">
+              <div className="bg-brand-red w-16 h-16 rounded-full flex items-center justify-center shrink-0 md:mb-4 text-2xl font-bold">
+                4
+              </div>
+              <div>
+                <h3 className="text-xl font-bold mb-2">Removal & Disposal</h3>
+                <p className="text-sm text-gray-300">We safely abate all hazards and haul away all debris, leaving the site clean.</p>
+              </div>
             </div>
+
           </div>
         </div>
       </section>
