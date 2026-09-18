@@ -304,7 +304,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4">
           <img src="/assets/logo-white.png" alt="Abatement and Demolition Specialist" className="h-20 mx-auto mb-6" />
           <p className="mb-4">DEP Contractor Lic. #CF-0259 | Fully Licensed & Insured</p>
-          <p className="mb-8">Serving Maine, New Hampshire, and Vermont border regions.</p>
+          <p className="mb-8">Serving Maine and New Hampshire.</p>
           <div className="border-t border-gray-800 pt-8">
             <p>&copy; {new Date().getFullYear()} Abatement and Demolition Specialist LLC. All rights reserved.</p>
           </div>
