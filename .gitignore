@@ -1,1 +1,14 @@
 .DS_Store
+node_modules/
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example

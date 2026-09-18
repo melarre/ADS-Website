@@ -101,7 +101,7 @@ function App() {
               </div>
               <div>
                 <h3 className="text-lg md:text-xl font-bold mb-2">RRP Lead Removal</h3>
-                <p className="text-gray-600">Expert containment and elimination of lead-based paint hazards in older residential and commercial buildings.</p>
+                <p className="text-gray-600">EPA certified to legally and safely handle lead-based hazards in older residential and commercial buildings.</p>
               </div>
             </div>
             <div className="bg-white md:p-8 p-6 rounded-lg shadow-sm border border-gray-100 flex">
