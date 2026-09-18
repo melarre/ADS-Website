@@ -12,7 +12,7 @@ function App() {
             <span className="flex items-center"><Mail size={16} className="mr-2" /> abatementanddemo@gmail.com</span>
           </div>
           <div className="flex items-center text-gray-300">
-            <MapPin size={16} className="mr-2" /> Serving Maine, NH, & VT Borders
+            <MapPin size={16} className="mr-2" /> Serving Maine, NH, & VT
           </div>
         </div>
       </div>
@@ -100,7 +100,7 @@ function App() {
                 </div>
               </div>
               <div>
-                <h3 className="text-2xl font-bold mb-2">Lead Paint Removal</h3>
+                <h3 className="text-2xl font-bold mb-2">RRP Lead Removal</h3>
                 <p className="text-gray-600">Expert containment and elimination of lead-based paint hazards in older residential and commercial buildings.</p>
               </div>
             </div>
@@ -141,7 +141,7 @@ function App() {
               <div className="flex items-start">
                 <CheckCircle2 className="text-brand-red mr-3 mt-1 flex-shrink-0" />
                 <div>
-                  <h4 className="font-bold text-gray-900 text-lg">Fully Licensed & Certified</h4>
+                  <h4 className="font-bold text-gray-900 text-lg">Fully Licensed & Insured</h4>
                   <p className="text-gray-600">DEP licenses for Contracting and Consulting (Lic. #CF-0259)</p>
                 </div>
               </div>
@@ -233,7 +233,7 @@ function App() {
                 <div>
                   <p className="text-sm text-gray-500 font-semibold uppercase tracking-wider">Location & Service Area</p>
                   <p className="text-lg font-bold text-gray-900">Based in Augusta, ME</p>
-                  <p className="text-gray-600">Serving ME, NH, & VT borders</p>
+                  <p className="text-gray-600">Serving ME, NH, & VT</p>
                 </div>
               </div>
             </div>
