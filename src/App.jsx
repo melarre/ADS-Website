@@ -266,7 +266,8 @@ function App() {
 
           {/* Form Section */}
           <div className="lg:w-1/2 bg-white p-8 rounded-lg shadow-md border border-gray-100">
-            <h3 className="text-xl font-extrabold text-gray-900 mb-6">Send us a message</h3>
+            <h3 className="text-xl font-extrabold text-gray-900">Send us a message</h3>
+            <p className="text-md text-gray-600 mb-6">We'll usually get back to you within the same business day.</p>
             <form action="https://formspree.io/f/mkjgnkwr" method="POST" className="space-y-4">
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
@@ -291,7 +292,7 @@ function App() {
                 <textarea id="message" name="message" rows="4" required className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-brand-red focus:border-brand-red"></textarea>
               </div>
               <button type="submit" className="w-full bg-brand-red text-white font-bold py-3 px-4 rounded-md hover:bg-red-700 transition">
-                Send Request
+                Send Message
               </button>
             </form>
           </div>
